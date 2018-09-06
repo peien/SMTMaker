@@ -16,4 +16,5 @@ typedef void(^noParamNoReturnBlock)(void);
 @property (nonatomic, readonly, strong) UILabel *(^linked_intoView)(UIView *);
 @property (nonatomic, readonly, copy) UILabel *(^linked_tapBlock)(noParamNoReturnBlock);
 
+
 @end
