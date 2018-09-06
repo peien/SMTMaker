@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3256C0A49CCD029644FF6E37 /* libPods-SMTMakerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE29F655E81D51456B9ED5D /* libPods-SMTMakerExample.a */; };
+		533CBDE52140BEAE00252B23 /* UILabel+SMTLinked.m in Sources */ = {isa = PBXBuildFile; fileRef = 533CBDE42140BEAE00252B23 /* UILabel+SMTLinked.m */; };
+		533CBDE82140C1D000252B23 /* MemoryedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 533CBDE72140C1D000252B23 /* MemoryedLabel.m */; };
 		5362D3AA213E6FC10006D1F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5362D3A9213E6FC10006D1F2 /* AppDelegate.m */; };
 		5362D3AD213E6FC10006D1F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5362D3AC213E6FC10006D1F2 /* ViewController.m */; };
 		5362D3B2213E6FC50006D1F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5362D3B1213E6FC50006D1F2 /* Assets.xcassets */; };
@@ -22,6 +24,10 @@
 /* Begin PBXFileReference section */
 		115B630289E54C210E472288 /* Pods-SMTMakerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMTMakerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMTMakerExample/Pods-SMTMakerExample.debug.xcconfig"; sourceTree = "<group>"; };
 		325D55657F7D7ED9B13E323F /* Pods-SMTMakerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMTMakerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMTMakerExample/Pods-SMTMakerExample.release.xcconfig"; sourceTree = "<group>"; };
+		533CBDE32140BEAE00252B23 /* UILabel+SMTLinked.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+SMTLinked.h"; sourceTree = "<group>"; };
+		533CBDE42140BEAE00252B23 /* UILabel+SMTLinked.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SMTLinked.m"; sourceTree = "<group>"; };
+		533CBDE62140C1D000252B23 /* MemoryedLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryedLabel.h; sourceTree = "<group>"; };
+		533CBDE72140C1D000252B23 /* MemoryedLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryedLabel.m; sourceTree = "<group>"; };
 		5362D3A5213E6FC10006D1F2 /* SMTMakerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMTMakerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5362D3A8213E6FC10006D1F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5362D3A9213E6FC10006D1F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,6 +105,10 @@
 				5362D3C6213E7F090006D1F2 /* SMTViewMake.m */,
 				5362D3C8213E81EB0006D1F2 /* UIView+SMTMake.h */,
 				5362D3C9213E81EB0006D1F2 /* UIView+SMTMake.m */,
+				533CBDE32140BEAE00252B23 /* UILabel+SMTLinked.h */,
+				533CBDE42140BEAE00252B23 /* UILabel+SMTLinked.m */,
+				533CBDE62140C1D000252B23 /* MemoryedLabel.h */,
+				533CBDE72140C1D000252B23 /* MemoryedLabel.m */,
 			);
 			name = SMTMaker;
 			path = ../SMTMaker;
@@ -244,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533CBDE52140BEAE00252B23 /* UILabel+SMTLinked.m in Sources */,
 				5362D3AD213E6FC10006D1F2 /* ViewController.m in Sources */,
 				5362D3B8213E6FC50006D1F2 /* main.m in Sources */,
 				5362D3AA213E6FC10006D1F2 /* AppDelegate.m in Sources */,
@@ -251,6 +262,7 @@
 				5362D3C4213E74F70006D1F2 /* UILabel+SMTMake.m in Sources */,
 				5362D3CA213E81EB0006D1F2 /* UIView+SMTMake.m in Sources */,
 				5362D3C7213E7F090006D1F2 /* SMTViewMake.m in Sources */,
+				533CBDE82140C1D000252B23 /* MemoryedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
